@@ -1,4 +1,4 @@
-# Map Search API
+# Map Search API (Nuxt 3 + Vue 3 + Google Map API)
 
 ## Task Requirement
 
