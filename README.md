@@ -57,4 +57,14 @@ yarn build
 yarn start
 ```
 
-## Results
+## Screenshot results
+
+<img src="https://github.com/yuchailam/Map-searching-and-pointing/blob/888a83ed39a1b4b342821f3b714b66be1a0c62f5/screenshopts/Autocomplete.png" width=“250”>
+
+<img src="https://github.com/yuchailam/Map-searching-and-pointing/blob/888a83ed39a1b4b342821f3b714b66be1a0c62f5/screenshopts/myLocation.png" width=“250”>
+
+<img src="https://github.com/yuchailam/Map-searching-and-pointing/blob/888a83ed39a1b4b342821f3b714b66be1a0c62f5/screenshopts/removeRows.png" width=“250”>
+
+<img src="https://github.com/yuchailam/Map-searching-and-pointing/blob/888a83ed39a1b4b342821f3b714b66be1a0c62f5/screenshopts/seachBox.png" width=“250”>
+
+<img src="https://github.com/yuchailam/Map-searching-and-pointing/blob/888a83ed39a1b4b342821f3b714b66be1a0c62f5/screenshopts/searchResult.png" width=“250”>
