@@ -1,0 +1,73 @@
+@use 'element-plus/dist/index.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .xl-container-center {
+    @apply xl:container xl:mx-auto xl:px-0 md:px-8 px-2;
+  }
+}
+/* [ FONTs ] */
+@font-face {
+  font-family: BreeSerif;
+  src: url('../fonts/BreeSerif.ttf');
+}
+
+@font-face {
+  font-family: Marcellus;
+  src: url('../fonts/Marcellus.ttf');
+}
+@font-face {
+  font-family: DMSerifText-Italic;
+  src: url('../fonts/DMSerifText-Italic.ttf');
+}
+@font-face {
+  font-family: DMSerifText-Regular;
+  src: url('../fonts/DMSerifText-Regular.ttf');
+}
+@font-face {
+  font-family: BlackHanSans;
+  src: url('../fonts/BlackHanSans-Regular.ttf');
+}
+.vl {
+  border-left: 1px solid #cbd5e1;
+  height: 80%;
+}
+
+:root {
+  --primary-color: rgb(225 29 72);
+  --third-color-focus: #ea580c;
+  --third-color-hover: #fb923c;
+}
+
+.dark {
+  --popper-theme-background-color: #333333;
+  --popper-theme-background-color-hover: #333333;
+  --popper-theme-text-color: white;
+  --popper-theme-border-width: 0px;
+  --popper-theme-border-radius: 6px;
+  --popper-theme-padding: 12px 32px;
+  --popper-theme-box-shadow: 0 6px 20px -6px rgba(0, 0, 0, 0.25);
+}
+
+.light {
+  --popper-theme-background-color: #ffffff;
+  --popper-theme-background-color-hover: #ffffff;
+  --popper-theme-text-color: #333333;
+  --popper-theme-border-width: 1px;
+  --popper-theme-border-style: solid;
+  --popper-theme-border-color: #eeeeee;
+  --popper-theme-border-radius: 6px;
+  --popper-theme-padding: 12px 24px;
+  --popper-theme-box-shadow: 0 6px 20px -6px rgba(0, 0, 0, 0.25);
+}
+
+input {
+  @apply bg-transparent placeholder:text-sm placeholder:tracking-wide;
+}
+
+input:focus {
+  outline: none !important;
+}
